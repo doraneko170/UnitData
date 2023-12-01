@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "address": "123 Main Street, Anytown, CA 12345"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "age": 25,
+      "address": "456 Elm Street, Anytown, CA 12345"
+    }
+  ]
+}
