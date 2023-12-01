@@ -79,6 +79,7 @@
 <input type="button" onclick="pushData()" value="登録">
 
 <script>
+  var json
   function pushData() {
     var [file] = document.getElementById('file').files
     var reader = new FileReader()
@@ -130,10 +131,11 @@
           eInheritance: eInheritanceArray
         }
         var pushDataJSON = JSON.stringify(pushData)
-        console.log(pushDataJSON)
+        json = pushDataJSON
       }
     )
     if (file)
       reader.readAsText(file)
   }
+
 </script>
