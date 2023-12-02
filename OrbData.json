@@ -1,0 +1,22 @@
+[
+  {
+    "name": "test",
+    "id": "2",
+    "cost": "1",
+    "rarity": "on",
+    "kind": "on",
+    "fSkill": [
+      0,
+      1
+    ],
+    "bSkill": [
+      1
+    ],
+    "pInheritance": [
+      0
+    ],
+    "eInheritance": [
+      0
+    ]
+  }
+]
